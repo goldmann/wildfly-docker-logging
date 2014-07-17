@@ -120,7 +120,6 @@
                 <level name="INFO"/>
                 <handlers>
                     <handler name="SYSLOG"/>
-                    <handler name="FILE"/>
                 </handlers>
             </root-logger>
             <formatter name="PATTERN">
