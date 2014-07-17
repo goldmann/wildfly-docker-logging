@@ -79,7 +79,7 @@
         <subsystem xmlns="urn:jboss:domain:logging:2.0">
             <syslog-handler name="SYSLOG">
                 <level name="INFO"/>
-                <hostname value="TEST-${jboss.host.name}" />
+                <hostname value="${jboss.host.name}" />
                 <server-address value="${env.SYSLOG_PORT_514_UDP_ADDR}" />
                 <port value="514" />
                 <formatter><syslog-format syslog-type="RFC3164"/></formatter>
